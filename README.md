@@ -43,6 +43,24 @@ Antes de ejecutar el proyecto asegúrate de tener instalado:
 	spring.datasource.password=tu_password
 
 3. **Compilar y ejecutar**
-./mvnw spring-boot:run
+	./mvnw spring-boot:run
 4. **Acceder a la API**
-http://localhost:8080
+	http://localhost:8080
+4. **🔒 Autenticación**
+
+	POST /auth/sign-in → Login
+	
+	POST /auth/sign-up → Registro
+
+5. **🏥 Atenciones**
+
+	GET /api/atenciones → Listado de todas las atenciones (ADMIN)
+	
+	GET /api/atenciones/mias → Listado de atenciones del paciente autenticado (PACIENTE)
+	
+	POST /api/atenciones → Crear atención (ADMIN/MEDICO)
+	
+	PUT /api/atenciones/{id} → Actualizar atención (ADMIN/MEDICO)
+	
+	DELETE /api/atenciones/{id} → Eliminar atención (ADMIN)
+
