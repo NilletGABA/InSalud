@@ -63,4 +63,15 @@ Antes de ejecutar el proyecto asegúrate de tener instalado:
 	PUT /api/atenciones/{id} → Actualizar atención (ADMIN/MEDICO)
 	
 	DELETE /api/atenciones/{id} → Eliminar atención (ADMIN)
+6. **Registro en Postman**
+	http://localhost:8080/api/auth/register
+7. **Registro**
+
+	{
+	  "usuario": "nillet",
+	  "contrasena": "gamboa2025",
+	  "nombre": "nillet.gamboa",
+	  "email": "nilletgb@gmail.com",
+	  "rol": "PACIENTE" ("ADMIN","PACIENTE", "MEDICO")
+	}
 
