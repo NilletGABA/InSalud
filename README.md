@@ -44,5 +44,5 @@ Antes de ejecutar el proyecto asegúrate de tener instalado:
 
 3. **Compilar y ejecutar**
 ./mvnw spring-boot:run
-4.**Acceder a la API**
+4. **Acceder a la API**
 http://localhost:8080
