@@ -34,9 +34,8 @@ Antes de ejecutar el proyecto asegúrate de tener instalado:
    cd insalud-backend
 
 2. **Configurar la base de datos**
-CREATE DATABASE insalud;
-
-
+   
+	CREATE DATABASE insalud;
 
 	Edita src/main/resources/application.properties con tus credenciales de PostgreSQL:
 	spring.datasource.url=jdbc:postgresql://localhost:5432/insalud
